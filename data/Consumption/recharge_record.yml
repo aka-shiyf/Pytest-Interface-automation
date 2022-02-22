@@ -1,0 +1,12 @@
+-
+  title: 充值记录
+  method: post
+  url: https://flashchainsign.com/bes/order/list
+  payload:
+    status: 2
+    pageNum: 1
+    pageSize: 10
+    oendTime:
+    beginTime:
+  validate:
+    equals: 200

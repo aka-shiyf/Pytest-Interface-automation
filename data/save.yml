@@ -1,0 +1,23 @@
+error_code: 0
+reason: 成功的返回
+result:
+- actors: 基努·里维斯 Keanu Reeves,凯瑞-安·莫斯 Carrie-Anne Moss,劳伦斯·菲什伯恩 Laurence Fishburne,雨果·维文
+    Hugo Weaving
+  also_known_as: 骇客任务.....(台湾译名),廿二世纪杀人网络.....(香港译名),骇客帝国
+  country: 美国
+  directors: 莉莉·沃卓斯基,拉娜·沃卓斯基
+  film_locations: 美国
+  genres: 动作/科幻
+  language: 英语
+  movieid: '10786'
+  plot_simple: 一名年轻的网络黑客尼奥发现看似正常的现实世界实际上是由一个名为“矩阵”的计算机人工智能系统控制的。尼奥在一名神秘女郎崔妮蒂的引导下见到了黑客组织的首领墨菲斯，三人走上了抗争矩阵的征途。
+  poster: http://img5.mtime.cn/mg/2016/12/22/175608.67161971_270X405X4.jpg
+  rating: '8'
+  rating_count: '98172'
+  release_date: '20000114'
+  runtime: 136分钟
+  title: 黑客帝国
+  type: null
+  writers: 莉莉·沃卓斯基,拉娜·沃卓斯基
+  year: '1999'
+resultcode: '200'

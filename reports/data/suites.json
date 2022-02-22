@@ -1,0 +1,135 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "test_cases",
+    "children" : [ {
+      "name" : "test_consumption",
+      "children" : [ {
+        "name" : "TestConsumption",
+        "children" : [ {
+          "name" : "test_consumption_list[args0]",
+          "uid" : "6f98eb2b49739888",
+          "parentUid" : "0ce5bb38d16c95ac1d11375b6a67086f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645440819787,
+            "stop" : 1645440819886,
+            "duration" : 99
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '消费记录订单列表', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/getOrderList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
+        }, {
+          "name" : "test_consumption_list[args1]",
+          "uid" : "e06ac59dfffa02cd",
+          "parentUid" : "0ce5bb38d16c95ac1d11375b6a67086f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645440819891,
+            "stop" : 1645440819971,
+            "duration" : 80
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '消费记录订单列表', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/getOrderList', 'payload': {'pageNum': 2, 'pageSize': 1, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
+        }, {
+          "name" : "test_consumption_record_list[args0]",
+          "uid" : "d7ab755bc9d3a5fe",
+          "parentUid" : "0ce5bb38d16c95ac1d11375b6a67086f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645440819976,
+            "stop" : 1645440820112,
+            "duration" : 136
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '消费记录-消费记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/bought_package/deductionWebList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
+        }, {
+          "name" : "test_recharge_record[args0]",
+          "uid" : "c3b24cd55e0df4b1",
+          "parentUid" : "0ce5bb38d16c95ac1d11375b6a67086f",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645440820116,
+            "stop" : 1645440820207,
+            "duration" : 91
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'title': '充值记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/list', 'payload': {'status': 2, 'pageNum': 1, 'pageSize': 10, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
+        } ],
+        "uid" : "0ce5bb38d16c95ac1d11375b6a67086f"
+      } ],
+      "uid" : "aa58c50b96219faebda21723555ecc1f"
+    }, {
+      "name" : "test_contract",
+      "children" : [ {
+        "name" : "TestContract",
+        "children" : [ {
+          "name" : "test_check_contract_list[args0]",
+          "uid" : "b7caf82c6cf7ef31",
+          "parentUid" : "1a279f9580f6a3576cf96e551c13b3e5",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645440820212,
+            "stop" : 1645440820392,
+            "duration" : 180
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': '查询合同列表', 'method': 'post', 'url': 'https://flashchainsign.com/bes/contract/query', 'headers': {'Authorization': 'Bearer ebd92ae8-bab7-470b-b3e5-3d0f2f350d4b', 'Content-Type': 'application/json'}, 'payload': {'queryType': 8, 'pageNum': 1, 'pageSize': 10, 'contractName': '', 'orgId': 651}, 'validate': {'equals': 200}}" ]
+        } ],
+        "uid" : "1a279f9580f6a3576cf96e551c13b3e5"
+      } ],
+      "uid" : "c4dcc046b4b0c6b6a356d8863ed920a2"
+    }, {
+      "name" : "test_home",
+      "children" : [ {
+        "name" : "TestHome",
+        "children" : [ {
+          "name" : "test_home_list[args0]",
+          "uid" : "ef392c2290c2ff4c",
+          "parentUid" : "3a55328863126e1124be78884fb825e2",
+          "status" : "passed",
+          "time" : {
+            "start" : 1645440820397,
+            "stop" : 1645440820505,
+            "duration" : 108
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'method': 'post', 'url': 'https://flashchainsign.com/bes/contract/home', 'payload': {'orgId': 0}, 'validate': {'equals': 200}}" ]
+        } ],
+        "uid" : "3a55328863126e1124be78884fb825e2"
+      } ],
+      "uid" : "8b8d346ee9b902842cefcd290e4a27dc"
+    } ],
+    "uid" : "10075452c99ff4a1bfbce955ca922247"
+  } ]
+}

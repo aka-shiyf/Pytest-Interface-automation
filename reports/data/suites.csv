@@ -1,0 +1,7 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Mon Feb 21 18:53:39 CST 2022","Mon Feb 21 18:53:39 CST 2022","80","test_cases","test_consumption","TestConsumption","","","test_consumption_list[args1]","获取消费列表，对响应结果和合同数据进行断言"
+"passed","Mon Feb 21 18:53:39 CST 2022","Mon Feb 21 18:53:39 CST 2022","99","test_cases","test_consumption","TestConsumption","","","test_consumption_list[args0]","获取消费列表，对响应结果和合同数据进行断言"
+"passed","Mon Feb 21 18:53:40 CST 2022","Mon Feb 21 18:53:40 CST 2022","91","test_cases","test_consumption","TestConsumption","","","test_recharge_record[args0]","获取消费列表，对响应结果和合同数据进行断言"
+"passed","Mon Feb 21 18:53:40 CST 2022","Mon Feb 21 18:53:40 CST 2022","108","test_cases","test_home","TestHome","","","test_home_list[args0]",""
+"passed","Mon Feb 21 18:53:39 CST 2022","Mon Feb 21 18:53:40 CST 2022","136","test_cases","test_consumption","TestConsumption","","","test_consumption_record_list[args0]","获取消费列表，对响应结果和合同数据进行断言"
+"passed","Mon Feb 21 18:53:40 CST 2022","Mon Feb 21 18:53:40 CST 2022","180","test_cases","test_contract","TestContract","","","test_check_contract_list[args0]","获取合同列表，对响应结果和合同数据进行断言"

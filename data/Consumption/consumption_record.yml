@@ -1,0 +1,12 @@
+-
+  name: 消费记录-消费记录
+  method: post
+  url: https://flashchainsign.com/bes/bought_package/deductionWebList
+  payload:
+    pageNum: 1
+    pageSize: 10
+    packageName:
+    oendTime:
+    beginTime:
+  validate:
+    equals: 200

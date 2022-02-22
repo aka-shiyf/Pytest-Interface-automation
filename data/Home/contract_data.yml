@@ -1,0 +1,51 @@
+-
+  method: post
+  url: https://flashchainsign.com/bes/contract/home
+  payload:
+    orgId: 0
+  validate:
+    equals: 200
+
+
+#...
+#  name: 获取电影信息
+#  method: get
+#  url: http://v.juhe.cn/movie/index
+#  params:
+#     key: caabdf813e16dd9dc9206dbcd5db3a21
+#     title: 黑客帝国
+
+#-
+#  name: 支付宝登录
+#  method: post
+#  url: https://flashchainsign.com/bes/auth/social
+#  Authorization: Basic c2VhbDpzZWFs
+#-
+#    -  contains: $csv{assert_str}
+
+#-
+#  name: 获取电影信息
+#  method: get
+#  url: http://v.juhe.cn/movie/index
+#  params:
+#     key: caabdf813e16dd9dc9206dbcd5db3a21
+#     title: 疯狂的石头
+#  validate: None
+#
+#-
+#  name: 获取电影信息
+#  method: get
+#  url: http://v.juhe.cn/movie/index
+#  params:
+#     key: caabdf813e16dd9dc9206dbcd5db3a21
+#     title: 黑客帝国
+#  validate: None
+#
+#-
+#  name: 获取电影信息
+#  method: get
+#  url: http://v.juhe.cn/movie/index
+#  params:
+#     key: caabdf813e16dd9dc9206dbcd5db3a21
+#     title: 流浪地球
+#  validate: None

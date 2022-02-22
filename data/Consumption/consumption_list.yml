@@ -1,0 +1,25 @@
+-
+  title: 消费记录订单列表
+  method: post
+  url: https://flashchainsign.com/bes/order/getOrderList
+  payload:
+    pageNum: 1
+    pageSize: 10
+    packageName:
+    oendTime:
+    beginTime:
+  validate:
+    equals: 200
+
+-
+  title: 消费记录订单列表
+  method: post
+  url: https://flashchainsign.com/bes/order/getOrderList
+  payload:
+    pageNum: 2
+    pageSize: 1
+    packageName:
+    oendTime:
+    beginTime:
+  validate:
+    equals: 200
