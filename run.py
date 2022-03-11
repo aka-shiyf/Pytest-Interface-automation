@@ -8,7 +8,7 @@ if __name__ == '__main__':
     pytest.main()
     time.sleep(2)
     os.system('allure generate ./temps -o ./reports --clean')
-    # SendMail().send_mail(os.getcwd() + "/reports/index.html")
+    SendMail().send_mail()
 # pytest
 # pytest-html 生成html报告
 # pytest-xdist  多线程运行

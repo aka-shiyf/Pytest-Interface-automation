@@ -1,0 +1,8 @@
+-
+  title: 退款申请
+  method: post
+  url: https://flashchainsign.com/bes/order/orderReuse/1225
+  payload:
+    groupid: 1
+  validate:
+    equals: 200

@@ -7,13 +7,13 @@
       "name" : "test_consumption",
       "children" : [ {
         "name" : "test_consumption_list[args0]",
-        "uid" : "6f98eb2b49739888",
+        "uid" : "f49f03741c269fe5",
         "parentUid" : "301031c6b1177ad18f9bc07cb85dc917",
         "status" : "passed",
         "time" : {
-          "start" : 1645440819787,
-          "stop" : 1645440819886,
-          "duration" : 99
+          "start" : 1646988501053,
+          "stop" : 1646988501213,
+          "duration" : 160
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
         "parameters" : [ "{'title': '消费记录订单列表', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/getOrderList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
       }, {
         "name" : "test_consumption_list[args1]",
-        "uid" : "e06ac59dfffa02cd",
+        "uid" : "73339030f633621b",
         "parentUid" : "301031c6b1177ad18f9bc07cb85dc917",
         "status" : "passed",
         "time" : {
-          "start" : 1645440819891,
-          "stop" : 1645440819971,
-          "duration" : 80
+          "start" : 1646988501222,
+          "stop" : 1646988501306,
+          "duration" : 84
         },
         "flaky" : false,
         "newFailed" : false,
@@ -41,13 +41,13 @@
         "parameters" : [ "{'title': '消费记录订单列表', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/getOrderList', 'payload': {'pageNum': 2, 'pageSize': 1, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
       }, {
         "name" : "test_consumption_record_list[args0]",
-        "uid" : "d7ab755bc9d3a5fe",
+        "uid" : "3ccb689503abc77e",
         "parentUid" : "301031c6b1177ad18f9bc07cb85dc917",
         "status" : "passed",
         "time" : {
-          "start" : 1645440819976,
-          "stop" : 1645440820112,
-          "duration" : 136
+          "start" : 1646988501310,
+          "stop" : 1646988501465,
+          "duration" : 155
         },
         "flaky" : false,
         "newFailed" : false,
@@ -58,13 +58,13 @@
         "parameters" : [ "{'name': '消费记录-消费记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/bought_package/deductionWebList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
       }, {
         "name" : "test_recharge_record[args0]",
-        "uid" : "c3b24cd55e0df4b1",
+        "uid" : "5a52b772a1bc0791",
         "parentUid" : "301031c6b1177ad18f9bc07cb85dc917",
         "status" : "passed",
         "time" : {
-          "start" : 1645440820116,
-          "stop" : 1645440820207,
-          "duration" : 91
+          "start" : 1646988501475,
+          "stop" : 1646988501596,
+          "duration" : 121
         },
         "flaky" : false,
         "newFailed" : false,
@@ -73,19 +73,36 @@
         "retriesCount" : 0,
         "retriesStatusChange" : false,
         "parameters" : [ "{'title': '充值记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/list', 'payload': {'status': 2, 'pageNum': 1, 'pageSize': 10, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
+      }, {
+        "name" : "test_consumption_refund[args0]",
+        "uid" : "ff1118f2ac242c60",
+        "parentUid" : "301031c6b1177ad18f9bc07cb85dc917",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646988501598,
+          "stop" : 1646988501676,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '退款', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/orderReuse/1225', 'payload': {'groupid': 1}, 'validate': {'equals': 200}}" ]
       } ],
       "uid" : "301031c6b1177ad18f9bc07cb85dc917"
     }, {
       "name" : "test_contract",
       "children" : [ {
         "name" : "test_check_contract_list[args0]",
-        "uid" : "b7caf82c6cf7ef31",
+        "uid" : "a27a50631d466079",
         "parentUid" : "660e7e2edef1ac7befe212c18c32a8ac",
         "status" : "passed",
         "time" : {
-          "start" : 1645440820212,
-          "stop" : 1645440820392,
-          "duration" : 180
+          "start" : 1646988501679,
+          "stop" : 1646988501773,
+          "duration" : 94
         },
         "flaky" : false,
         "newFailed" : false,
@@ -100,13 +117,13 @@
       "name" : "test_home",
       "children" : [ {
         "name" : "test_home_list[args0]",
-        "uid" : "ef392c2290c2ff4c",
+        "uid" : "4729dc37d9e5d536",
         "parentUid" : "770b53e1ab434292d1d07d35020725a8",
         "status" : "passed",
         "time" : {
-          "start" : 1645440820397,
-          "stop" : 1645440820505,
-          "duration" : 108
+          "start" : 1646988501777,
+          "stop" : 1646988501901,
+          "duration" : 124
         },
         "flaky" : false,
         "newFailed" : false,

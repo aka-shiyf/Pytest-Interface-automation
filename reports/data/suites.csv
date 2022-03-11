@@ -1,7 +1,20 @@
 "Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"passed","Mon Feb 21 18:53:39 CST 2022","Mon Feb 21 18:53:39 CST 2022","80","test_cases","test_consumption","TestConsumption","","","test_consumption_list[args1]","获取消费列表，对响应结果和合同数据进行断言"
-"passed","Mon Feb 21 18:53:39 CST 2022","Mon Feb 21 18:53:39 CST 2022","99","test_cases","test_consumption","TestConsumption","","","test_consumption_list[args0]","获取消费列表，对响应结果和合同数据进行断言"
-"passed","Mon Feb 21 18:53:40 CST 2022","Mon Feb 21 18:53:40 CST 2022","91","test_cases","test_consumption","TestConsumption","","","test_recharge_record[args0]","获取消费列表，对响应结果和合同数据进行断言"
-"passed","Mon Feb 21 18:53:40 CST 2022","Mon Feb 21 18:53:40 CST 2022","108","test_cases","test_home","TestHome","","","test_home_list[args0]",""
-"passed","Mon Feb 21 18:53:39 CST 2022","Mon Feb 21 18:53:40 CST 2022","136","test_cases","test_consumption","TestConsumption","","","test_consumption_record_list[args0]","获取消费列表，对响应结果和合同数据进行断言"
-"passed","Mon Feb 21 18:53:40 CST 2022","Mon Feb 21 18:53:40 CST 2022","180","test_cases","test_contract","TestContract","","","test_check_contract_list[args0]","获取合同列表，对响应结果和合同数据进行断言"
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","84","test_cases","test_consumption","TestConsumption","","","test_consumption_list[args1]","
+        订单列表，post请求，/bes/order/getOrderList，正例：正常参数请求，获取订单列表
+        "
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","160","test_cases","test_consumption","TestConsumption","","","test_consumption_list[args0]","
+        订单列表，post请求，/bes/order/getOrderList，正例：正常参数请求，获取订单列表
+        "
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","124","test_cases","test_home","TestHome","","","test_home_list[args0]",""
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","78","test_cases","test_consumption","TestConsumption","","","test_consumption_refund[args0]","
+        充值记录列表，post请求，/bes/order/list，反例：已使用套餐申请退款
+        "
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","94","test_cases","test_contract","TestContract","","","test_check_contract_list[args0]","
+      获取合同列表，对响应结果和合同数据进行断言
+      "
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","155","test_cases","test_consumption","TestConsumption","","","test_consumption_record_list[args0]","
+        消费记录，post请求，/bes/bought_package/deductionWebList，正例：正常参数请求，获取消费记录
+        "
+"passed","Fri Mar 11 16:48:21 CST 2022","Fri Mar 11 16:48:21 CST 2022","121","test_cases","test_consumption","TestConsumption","","","test_recharge_record[args0]","
+        充值记录列表，post请求，/bes/order/list,正例：正常参数请求，获取充值记录列表
+        "

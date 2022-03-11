@@ -1,3 +1,3 @@
-headers:
-    Authorization: Bearer ebd92ae8-bab7-470b-b3e5-3d0f2f350d4b
+token:
+    Authorization: Bearer f3e0e797-a961-437e-bc33-72cb035ffc4f
     Content-Type: application/json

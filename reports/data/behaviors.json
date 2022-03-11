@@ -7,13 +7,13 @@
       "name" : "订单列表",
       "children" : [ {
         "name" : "test_consumption_list[args0]",
-        "uid" : "6f98eb2b49739888",
+        "uid" : "f49f03741c269fe5",
         "parentUid" : "8d517295c625d84dabdeddc154528e54",
         "status" : "passed",
         "time" : {
-          "start" : 1645440819787,
-          "stop" : 1645440819886,
-          "duration" : 99
+          "start" : 1646988501053,
+          "stop" : 1646988501213,
+          "duration" : 160
         },
         "flaky" : false,
         "newFailed" : false,
@@ -24,13 +24,13 @@
         "parameters" : [ "{'title': '消费记录订单列表', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/getOrderList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
       }, {
         "name" : "test_consumption_list[args1]",
-        "uid" : "e06ac59dfffa02cd",
+        "uid" : "73339030f633621b",
         "parentUid" : "8d517295c625d84dabdeddc154528e54",
         "status" : "passed",
         "time" : {
-          "start" : 1645440819891,
-          "stop" : 1645440819971,
-          "duration" : 80
+          "start" : 1646988501222,
+          "stop" : 1646988501306,
+          "duration" : 84
         },
         "flaky" : false,
         "newFailed" : false,
@@ -45,13 +45,13 @@
       "name" : "消费记录",
       "children" : [ {
         "name" : "test_consumption_record_list[args0]",
-        "uid" : "d7ab755bc9d3a5fe",
+        "uid" : "3ccb689503abc77e",
         "parentUid" : "cd4e3694bed80ba1cca3c0a62b6c808d",
         "status" : "passed",
         "time" : {
-          "start" : 1645440819976,
-          "stop" : 1645440820112,
-          "duration" : 136
+          "start" : 1646988501310,
+          "stop" : 1646988501465,
+          "duration" : 155
         },
         "flaky" : false,
         "newFailed" : false,
@@ -66,13 +66,13 @@
       "name" : "充值记录",
       "children" : [ {
         "name" : "test_recharge_record[args0]",
-        "uid" : "c3b24cd55e0df4b1",
+        "uid" : "5a52b772a1bc0791",
         "parentUid" : "4ff024d93a2620dafca120715ea9b398",
         "status" : "passed",
         "time" : {
-          "start" : 1645440820116,
-          "stop" : 1645440820207,
-          "duration" : 91
+          "start" : 1646988501475,
+          "stop" : 1646988501596,
+          "duration" : 121
         },
         "flaky" : false,
         "newFailed" : false,
@@ -83,6 +83,27 @@
         "parameters" : [ "{'title': '充值记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/list', 'payload': {'status': 2, 'pageNum': 1, 'pageSize': 10, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
       } ],
       "uid" : "4ff024d93a2620dafca120715ea9b398"
+    }, {
+      "name" : "退款申请",
+      "children" : [ {
+        "name" : "test_consumption_refund[args0]",
+        "uid" : "ff1118f2ac242c60",
+        "parentUid" : "18ffcbd155ebcddff54fb879f11c3279",
+        "status" : "passed",
+        "time" : {
+          "start" : 1646988501598,
+          "stop" : 1646988501676,
+          "duration" : 78
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'title': '退款', 'method': 'post', 'url': 'https://flashchainsign.com/bes/order/orderReuse/1225', 'payload': {'groupid': 1}, 'validate': {'equals': 200}}" ]
+      } ],
+      "uid" : "18ffcbd155ebcddff54fb879f11c3279"
     } ],
     "uid" : "73b49da99a2dca6170a8677a94a16078"
   }, {
@@ -91,13 +112,13 @@
       "name" : "获取合同列表",
       "children" : [ {
         "name" : "test_check_contract_list[args0]",
-        "uid" : "b7caf82c6cf7ef31",
+        "uid" : "a27a50631d466079",
         "parentUid" : "a0eb67db1a6b53755a8cd7c10515bee4",
         "status" : "passed",
         "time" : {
-          "start" : 1645440820212,
-          "stop" : 1645440820392,
-          "duration" : 180
+          "start" : 1646988501679,
+          "stop" : 1646988501773,
+          "duration" : 94
         },
         "flaky" : false,
         "newFailed" : false,
@@ -116,13 +137,13 @@
       "name" : "获取首页合同数据",
       "children" : [ {
         "name" : "test_home_list[args0]",
-        "uid" : "ef392c2290c2ff4c",
+        "uid" : "4729dc37d9e5d536",
         "parentUid" : "5a01bedcca334405bff044d6e6fcd6cb",
         "status" : "passed",
         "time" : {
-          "start" : 1645440820397,
-          "stop" : 1645440820505,
-          "duration" : 108
+          "start" : 1646988501777,
+          "stop" : 1646988501901,
+          "duration" : 124
         },
         "flaky" : false,
         "newFailed" : false,

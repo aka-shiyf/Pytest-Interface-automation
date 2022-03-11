@@ -1,0 +1,106 @@
+{
+  "uid" : "3ccb689503abc77e",
+  "name" : "test_consumption_record_list[args0]",
+  "fullName" : "test_cases.test_consumption.TestConsumption#test_consumption_record_list",
+  "historyId" : "bfad15f24f6ba4397b86864c71b3a629",
+  "time" : {
+    "start" : 1646988501310,
+    "stop" : 1646988501465,
+    "duration" : 155
+  },
+  "description" : "\n        消费记录，post请求，/bes/bought_package/deductionWebList，正例：正常参数请求，获取消费记录\n        ",
+  "descriptionHtml" : "<pre><code>    消费记录，post请求，/bes/bought_package/deductionWebList，正例：正常参数请求，获取消费记录\n</code></pre>\n",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "description" : "\n        消费记录，post请求，/bes/bought_package/deductionWebList，正例：正常参数请求，获取消费记录\n        ",
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "响应结果",
+      "time" : {
+        "start" : 1646988501462,
+        "stop" : 1646988501464,
+        "duration" : 2
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "aee6f47b8adc6f7b",
+        "name" : "db55c3d5-c014-4c32-9db2-e13b211735d7-attachment.attach",
+        "source" : "aee6f47b8adc6f7b.attach",
+        "type" : "text/plain",
+        "size" : 10906
+      } ],
+      "parameters" : [ ],
+      "hasContent" : true,
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "hasContent" : true,
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "消费记录"
+  }, {
+    "name" : "severity",
+    "value" : "critical"
+  }, {
+    "name" : "story",
+    "value" : "消费记录"
+  }, {
+    "name" : "parentSuite",
+    "value" : "test_cases"
+  }, {
+    "name" : "suite",
+    "value" : "test_consumption"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestConsumption"
+  }, {
+    "name" : "host",
+    "value" : "SC-202007021521"
+  }, {
+    "name" : "thread",
+    "value" : "12748-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_cases.test_consumption"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "args",
+    "value" : "{'name': '消费记录-消费记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/bought_package/deductionWebList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "critical",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3ccb689503abc77e.json",
+  "parameterValues" : [ "{'name': '消费记录-消费记录', 'method': 'post', 'url': 'https://flashchainsign.com/bes/bought_package/deductionWebList', 'payload': {'pageNum': 1, 'pageSize': 10, 'packageName': None, 'oendTime': None, 'beginTime': None}, 'validate': {'equals': 200}}" ]
+}
